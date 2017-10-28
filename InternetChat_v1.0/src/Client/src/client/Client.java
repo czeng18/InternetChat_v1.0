@@ -1,11 +1,4 @@
 package client;
-/**
- * Opens connection with a server that is already open and creates a UI for user to interact with
- * Chats with other users on this port
- * Connects to default port
- * @author Caroline Zeng
- * @version 2.0.0
- */
 
 import javax.swing.*;
 import java.io.BufferedReader;
@@ -15,13 +8,30 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
+/**
+ * Opens connection with a server that is already open and creates a UI for user to interact with.
+ * Chats with other users on this port.
+ * Connects to default port.
+ * @author Caroline Zeng
+ * @version 2.0.0
+ */
+
 public class Client extends Thread {
-    // Holds host name and port number to connect to
+    /**
+     * Holds host name and port number to connect to
+     */
     String[] args;
-    // Connection to host
+    /**
+     * Connection to host
+     */
     Socket socket;
-    // Input and output streams
+    /**
+     * Input stream
+     */
     PrintWriter out;
+    /**
+     * Output stream
+     */
     BufferedReader in;
     JTextArea messageArea;
     JTextField textField;

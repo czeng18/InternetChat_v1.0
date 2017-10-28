@@ -1,16 +1,16 @@
 package client;
 
-/**
- * UI for client end of Chat
- * @author Caroline Zeng
- * @version 2.0.0
- */
-
 import javax.swing.*;
 import javax.swing.text.DefaultCaret;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+/**
+ * UI for client end of Chat
+ * @author Caroline Zeng
+ * @version 2.0.0
+ */
 
 public class ClientUI extends JFrame {
     // Panel to hold reconnection info collection

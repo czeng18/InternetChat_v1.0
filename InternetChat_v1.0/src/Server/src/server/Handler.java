@@ -1,16 +1,16 @@
 package server;
 
-/**
- * Thread to handle the information coming from the associated client
- * @author Caroline Zeng
- * @version 2.0.0
- */
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+
+/**
+ * Thread to handle the information coming from the associated client
+ * @author Caroline Zeng
+ * @version 2.0.0
+ */
 
 public class Handler extends Thread {
     // Connection to client
