@@ -1,1 +1,2 @@
-JavaDocs/* linguist-vendored
+$ cat .gitattributes
+*.rb linguist-language=Java
